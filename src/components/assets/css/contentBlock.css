@@ -1,0 +1,82 @@
+.ContentBlock {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.heading_content {
+    color: #191C1F;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    margin-bottom: 61px;
+}
+
+.recommendationsBox {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 32px;
+    margin-bottom: 80px;
+}
+
+.recommendationsEl {
+    max-width: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.recommendationsHeading {
+    color: #191C1F;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    margin-top: 16px;
+    margin-bottom: 0;
+}
+
+.recommendationsText {
+    color:#5E646A;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 0;
+}
+
+.recomendationEl_img {
+    max-width: 72px;
+    max-height: 72px;
+}
+
+.content_thirdBlock_img {
+    max-width: 592px;
+    max-height: 448px;
+}
+
+.thirdBlock {
+    display: flex;
+    gap: 32px;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+.thirdBlock_text {
+    max-width: 592px;
+    order: -1;
+}
+
+.thirdBlockHeader {
+    color:#191C1F;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 40px;
+    text-align: left;
+}
+
+.thirdBlockText {
+    color: #5E646A;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
