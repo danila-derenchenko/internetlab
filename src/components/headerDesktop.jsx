@@ -2,10 +2,18 @@ import React from "react";
 import './assets/css/headerDesktop.css'
 
 const HeaderDesktop = () => {
+    const getVisible = () => {
+        if (window.innerWidth < 780) {
+          return false
+        } else {
+            return true
+        }
+      };
+
     return (
         <section className="HeaderDesktop">
             <section className="wrapper__image">
-                <img src={require('./assets/img/header.png')} alt="fullscreen" className="fullscreen__image" />
+                <img src={require(`./assets/img/${getVisible() ? 'header.png' : 'headersmall.png'}`)} alt="fullscreen" className="fullscreen__image" />
             </section>
             <section className="wrapper">
                 <div className="fullscreen">

@@ -95,8 +95,11 @@
         gap: 16px;
     }
     .recomendationEl_img {
-        max-width: 56px;
-        max-height: 56px;
+        width: 56px;
+        height: 56px;
+    }
+    .recommendationsHeading {
+        margin-top: 0;
     }
   }
 
@@ -107,11 +110,15 @@
     .recommendationsEl {
         flex-direction: row;
         display: flex;
+        justify-content: initial;
         gap: 16px;
     }
+    .recommendationsHeading {
+        margin-top: 0;
+    }
     .recomendationEl_img {
-        max-width: 40px;
-        max-height: 40px;
+        width: 40px;
+        height: 40px;
     }
     .content_thirdBlock_img {
         max-width: 342px;
