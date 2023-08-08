@@ -58,6 +58,7 @@
     font-weight: 400;
     line-height: 32px;
     transition-duration: 1s;
+    margin-bottom: 16px;
 }
 
 .faq_answerSee {
@@ -70,12 +71,33 @@
     opacity: 0;
     max-height: 0;
     overflow: hidden;
-    transition: opacity 0.5s ease, max-height 0.5s ease;
+    transition: opacity 0.5s ease, 0.5s ease;
 }
   
   .visibleText {
     display: block;
     opacity: 1;
-    max-height: 100px;
-    transition: opacity 0.5s ease, max-height 0.5s ease;
+    transition: opacity 0.5s ease, 0.5s ease;
 }
+
+@media screen and (max-width: 800px) and (min-width: 400px) {
+    .faq_question {
+        max-width: 300px;
+    }
+
+    .faq {
+        padding-top: 56px;
+        padding-bottom: 56px;
+    }
+  }
+
+  @media screen and (max-width: 400px) {
+    .faq_question {
+        max-width: 244px;
+    }
+
+    .faq {
+        padding-top: 56px;
+        padding-bottom: 56px;
+    }
+  }

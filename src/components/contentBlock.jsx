@@ -20,8 +20,10 @@ const ContentBlock = () => {
                         <path d="M49.55 51.6599L44.05 47.1599C43.7 46.8759 43.5 46.4499 43.5 45.9999V37.4999H46.5V45.2899L51.45 49.3399L49.55 51.6599Z" fill="white"/>
                         <path d="M22.89 39.0001C21.842 39.0001 20.888 38.3421 20.516 37.3641L12.17 15.4541C12.066 15.2241 12 14.8941 12 14.5421C12 13.1401 13.14 12.0001 14.542 12.0001C14.894 12.0001 15.224 12.0661 15.524 12.2001L37.364 20.5181C38.34 20.8901 38.998 21.8421 38.998 22.8921C38.998 23.9961 38.292 24.9661 37.244 25.3101L28.252 28.2561L25.306 37.2481C24.964 38.2941 23.994 39.0001 22.89 39.0001ZM15.334 15.3361L22.86 35.0841L25.64 26.5981C25.788 26.1441 26.146 25.7881 26.598 25.6401L35.084 22.8601L15.334 15.3361ZM14.386 14.9741C14.392 14.9761 14.4 14.9801 14.41 14.9821L14.386 14.9741ZM14.946 14.3141L14.972 14.3821C14.964 14.3621 14.956 14.3401 14.946 14.3141Z" fill="#191C1F"/>
                     </svg>
-                    <p className="recommendationsHeading">Прочитай задание внимательно</p>
-                    <p className="recommendationsText">Думаю у тебя не займет это больше двух-трех минут</p>
+                    <div>
+                        <p className="recommendationsHeading">Прочитай задание внимательно</p>
+                        <p className="recommendationsText">Думаю у тебя не займет это больше двух-трех минут</p>
+                    </div>
                 </div>
                 <div className="recommendationsEl">
                     <svg className="recomendationEl_img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" fill="none">
@@ -47,8 +49,10 @@ const ContentBlock = () => {
                         <path d="M27 60.0001C24.244 60.0001 22 57.7561 22 55.0001C22 52.2441 24.244 50.0001 27 50.0001C29.756 50.0001 32 52.2441 32 55.0001C32 57.7561 29.756 60.0001 27 60.0001ZM27 53.0001C25.898 53.0001 25 53.8981 25 55.0001C25 56.1021 25.898 57.0001 27 57.0001C28.102 57.0001 29 56.1021 29 55.0001C29 53.8981 28.102 53.0001 27 53.0001Z" fill="#191C1F"/>
                         <path d="M51 60.0001C48.244 60.0001 46 57.7561 46 55.0001C46 52.2441 48.244 50.0001 51 50.0001C53.756 50.0001 56 52.2441 56 55.0001C56 57.7561 53.756 60.0001 51 60.0001ZM51 53.0001C49.898 53.0001 49 53.8981 49 55.0001C49 56.1021 49.898 57.0001 51 57.0001C52.102 57.0001 53 56.1021 53 55.0001C53 53.8981 52.102 53.0001 51 53.0001Z" fill="#191C1F"/>
                     </svg>
-                    <p className="recommendationsHeading">Изучи весь макет заранее</p>
-                    <p className="recommendationsText">Подумай как это будет работать на разных разрешениях и при скролле</p>
+                    <div>
+                        <p className="recommendationsHeading">Изучи весь макет заранее</p>
+                        <p className="recommendationsText">Подумай как это будет работать на разных разрешениях и при скролле</p>
+                    </div>
                 </div>
                 <div className="recommendationsEl">
                     <svg className="recomendationEl_img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" fill="none">
@@ -64,8 +68,10 @@ const ContentBlock = () => {
                         <path d="M36 34H33V29H28V26H34.5C35.328 26 36 26.672 36 27.5V34Z" fill="#191C1F"/>
                         <path d="M47.4995 50.9999C47.1035 50.9999 46.7195 50.8419 46.4395 50.5599L42.4395 46.5599L44.5615 44.4379L47.3395 47.2159L52.2994 40.5999L54.6974 42.3999L48.6975 50.3999C48.4375 50.7479 48.0395 50.9659 47.6035 50.9959C47.5695 50.9999 47.5355 50.9999 47.4995 50.9999Z" fill="white"/>
                     </svg>
-                    <p className="recommendationsHeading">Сделай хорошо</p>
-                    <p className="recommendationsText">Чтобы мы могли тебе доверить подобные задачи в будущем</p>
+                    <div>
+                        <p className="recommendationsHeading">Сделай хорошо</p>
+                        <p className="recommendationsText">Чтобы мы могли тебе доверить подобные задачи в будущем</p>
+                    </div>
                 </div>
                 <div className="recommendationsEl">
                     <svg className="recomendationEl_img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" fill="none">
@@ -88,10 +94,13 @@ const ContentBlock = () => {
                         <path d="M39.9004 18.2001H54.3664V21.2001H39.9004V18.2001Z" fill="#191C1F"/>
                         <path d="M51.6109 46.0002V43.0002C56.7389 43.0002 56.9989 37.3642 56.9989 36.2322C56.9989 30.6742 53.2489 23.4102 49.1289 20.9922L50.6469 18.4062C56.1569 21.6382 59.9989 30.3962 59.9989 36.2322C59.9989 41.0942 57.4049 46.0002 51.6109 46.0002Z" fill="#191C1F"/>
                     </svg>
-                    <p className="recommendationsHeading">Получи предложение</p>
-                    <p className="recommendationsText">Ну тут все просто, не я придумал правила, но думаю так и будет)))</p>
+                    <div>
+                        <p className="recommendationsHeading">Получи предложение</p>
+                        <p className="recommendationsText">Ну тут все просто, не я придумал правила, но думаю так и будет)))</p>
+                    </div>
                 </div>
             </div>
+            <span id='3block'></span>
             <div className="thirdBlock">
                 <img src={require('./assets/img/thirdBlock.png')} alt="third block" className="content_thirdBlock_img" />
                 <div className="thirdBlock_text">

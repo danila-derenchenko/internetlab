@@ -11,12 +11,12 @@ const HeaderDesktop = () => {
                 <div className="fullscreen">
                     <div className="container_header container1213">
                         <header className="header">
-                            <div className="logo"><img src={require('./assets/img/logo.png')} alt="logo1" className="logo_el" /></div>
+                            <a href="#main"><div className="logo"><img src={require('./assets/img/logo.png')} alt="logo1" className="logo_el" /></div></a>
                             <nav className="nav">
-                                <a href="#" className="nav_el">Как это работает</a>
-                                <a href="#" className="nav_el">3-й блок</a>
-                                <a href="#" className="nav_el">Вопросы и ответы</a>
-                                <a href="#" className="nav_el">Форма</a>
+                                <a href="#content" className="nav_el">Как это работает</a>
+                                <a href="#3block" className="nav_el">3-й блок</a>
+                                <a href="#faq" className="nav_el">Вопросы и ответы</a>
+                                <a href="#form" className="nav_el">Форма</a>
                             </nav>
                         </header>
                         <div className="content">

@@ -98,3 +98,9 @@
     cursor: pointer;
     transition-duration: 0.5s;
 }
+
+@media screen and (max-width: 950px) {
+    .HeaderDesktop {
+        display: none;
+    }
+}

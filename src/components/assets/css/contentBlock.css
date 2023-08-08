@@ -80,3 +80,47 @@
     font-weight: 400;
     line-height: 28px;
 }
+
+@media screen and (max-width: 950px) and (min-width: 500px) {
+    .recommendationsBox {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .content_thirdBlock_img {
+        max-width: 351px;
+        max-height: 265px;
+    }
+    .recommendationsEl {
+        flex-direction: row;
+        display: flex;
+        gap: 16px;
+    }
+    .recomendationEl_img {
+        max-width: 56px;
+        max-height: 56px;
+    }
+  }
+
+  @media screen and (max-width: 500px) {
+    .recommendationsBox {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .recommendationsEl {
+        flex-direction: row;
+        display: flex;
+        gap: 16px;
+    }
+    .recomendationEl_img {
+        max-width: 40px;
+        max-height: 40px;
+    }
+    .content_thirdBlock_img {
+        max-width: 342px;
+        max-height: auto;
+    }
+    .thirdBlock {
+        flex-direction: column;
+    }
+    .thirdBlock_text {
+        order: 0;
+    }
+  }
