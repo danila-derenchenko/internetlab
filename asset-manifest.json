@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/internetlab/static/css/main.37152edd.css",
+    "main.css": "/internetlab/static/css/main.7af0c545.css",
     "main.js": "/internetlab/static/js/main.a2c996e5.js",
     "static/js/787.88a47bd1.chunk.js": "/internetlab/static/js/787.88a47bd1.chunk.js",
     "static/media/header.png": "/internetlab/static/media/header.f9b3ce910fed05ab63ff.png",
     "static/media/headersmall.png": "/internetlab/static/media/headersmall.a29d7a28b01983387e79.png",
     "static/media/thirdBlock.png": "/internetlab/static/media/thirdBlock.0780c115b57572a20a85.png",
     "index.html": "/internetlab/index.html",
-    "main.37152edd.css.map": "/internetlab/static/css/main.37152edd.css.map",
+    "main.7af0c545.css.map": "/internetlab/static/css/main.7af0c545.css.map",
     "main.a2c996e5.js.map": "/internetlab/static/js/main.a2c996e5.js.map",
     "787.88a47bd1.chunk.js.map": "/internetlab/static/js/787.88a47bd1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.37152edd.css",
+    "static/css/main.7af0c545.css",
     "static/js/main.a2c996e5.js"
   ]
 }
